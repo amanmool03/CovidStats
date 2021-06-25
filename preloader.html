@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="resources/css/preloader.css">
+
+</head>
+
+<body>
+    <div class="prewrapper">
+        <div class="preloader">
+            <div>✋🏽</div>
+            <div>🧼</div>
+            <div>🤚🏻</div>
+        </div>
+    </div>
+
+    <div style="height: 100vh; width: 100%; background-color: aliceblue;">
+
+    </div>
+</body>
+<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script>
+    $(window).on('load', function () {
+        $('.prewrapper').delay(100).fadeOut();
+        $('.preloader').delay(110).fadeOut('slow');
+    });
+</script>
+
+</html>

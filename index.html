@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="resources/css/style.css">
+    <link rel="stylesheet" href="resources/css/preloader.css">
+
+    <script src="https://kit.fontawesome.com/598796fa2b.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+
+    <div class="prewrapper">
+        <div class="preloader">
+            <div>✋🏽</div>
+            <div>🧼</div>
+            <div>🤚🏻</div>
+        </div>
+    </div>
+
+
+    <div class="wrapper">
+        <div class="sidenav">
+            <div class="logo">
+                <i class="fas fa-virus" style="color: #F6C879;"></i>
+            </div>
+            <div class="innernav">
+                <ul>
+                    <li class="active"><a href="#"><i class="fas fa-globe-africa"></i></a></li>
+                    <li><a href="#"><i class="fas fa-viruses"></i></a></li>
+                    <li><a href="#"><i class="fas fa-lightbulb"></i></a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="main-body">
+            <div class="container">
+
+                <div class="main-title">
+                    <h2 class="main-header">Coronavirus COVID-19</h2>
+                    <p class="subtitle">Global Cases</p>
+                </div>
+
+                <div class="stats">
+
+                    <div class="latest-report">
+
+                        <div class="country">
+                            <div class="name">Loading....</div>
+                            <div class="change-country">change</div>
+                            <div class="search-country hide">
+                                <div class="search-box">
+                                    <input type="text" id="search-input" placeholder="search country..">
+                                    <img class="close" src="resources/img/close.svg" alt="close">
+                                </div>
+                                <div class="country-list ">
+
+                                </div>
+                            </div>
+                        </div>
+                        <div class="total-cases">
+                            <div class="logo">
+                                <img src="resources/img/infected.svg" alt="infected person">
+                            </div>
+                            <div class="stat">
+                                <div class="title">Total Cases</div>
+                                <div class="value">0</div>
+                                <div class="new-value">+0</div>
+                            </div>
+                        </div>
+                        <div class="recovered">
+                            <div class="logo">
+                                <i class="fas fa-plus"></i>
+                            </div>
+                            <div class="stat">
+                                <div class="title">Recovered</div>
+                                <div class="value">0</div>
+                                <div class="new-value">+0</div>
+                            </div>
+                        </div>
+                        <div class="deaths">
+                            <div class="logo">
+                                <img src="resources/img/death.svg" alt="">
+                            </div>
+                            <div class="stat">
+                                <div class="title">Deaths</div>
+                                <div class="value">0</div>
+                                <div class="new-value">+0</div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="chart">
+                        <canvas id="axes_line_chart"></canvas>
+                    </div>
+
+                </div>
+
+                <footer>
+                    <div class="footer-container">
+                        <p>Copyright © 2020 Coding is fun</p>
+                    </div>
+                </footer>
+
+            </div>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.min.js"
+        integrity="sha256-R4pqcOYV8lt7snxMQO/HSbVCFRPMdrhAFMH+vr9giYI=" crossorigin="anonymous"></script>
+    <script language="JavaScript" src="http://www.geoplugin.net/javascript.gp" type="text/javascript"></script>
+    <script src="resources/js/preloader.js"></script>
+    <script src="resources/js/countries.js"></script>
+    <script src="resources/js/app.js"></script>
+
+
+
+</body>
+
+</html>
